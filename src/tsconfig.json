@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "target": "ES2019",
+      "module": "CommonJS",
+      "esModuleInterop": true,
+      "outDir": "./build",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "moduleResolution": "node",
+      "skipLibCheck": true,
+      "incremental": true,
+      "strictNullChecks": true,
+      "inlineSourceMap": true,
+      "lib": [
+          "es2016",
+          "es2017",
+          "es5",
+          "es6"
+      ],
+      "paths": {
+          "*": [
+              "node_modules/*"
+          ]
+      }
+  },
+  "include": [
+      "**/*"
+  ],
+  "exclude": ["node_modules"]
+}

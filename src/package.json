@@ -1,6 +1,6 @@
 {
   "name": "jcdoc",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "_jcdoc_ is a framework for generating _Jacy_ documentation. It also includes universal generator for static web pages and should be used as non-code documentation generator in _Jacy_ project.",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,21 @@
     "type": "git",
     "url": "git+https://github.com/jacylang/jacy-doc.git"
   },
-  "author": "",
+  "author": "hazer-hazer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jacylang/jacy-doc/issues"
   },
-  "homepage": "https://github.com/jacylang/jacy-doc#readme"
+  "homepage": "https://github.com/jacylang/jacy-doc#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.13",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.2",
+    "typescript-eslint": "^0.0.1-alpha.0"
+  },
+  "dependencies": {
+    "highlight": "^0.2.4",
+    "highlight.js": "^11.2.0",
+    "showdown": "^1.9.1"
+  }
 }
